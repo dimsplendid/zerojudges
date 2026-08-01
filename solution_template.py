@@ -1,9 +1,16 @@
+import sys
+
+s = sys.stdin.read().split() # sys.stdin.readlines() # 視測資格式選合適的
+
+def parser(s):
+    s.split() # s.splitlines().split() # 視測資格式選合適的
+    ...
+
 def solution(x):
     ...
 
 
-inputs = sys.stdin.read().split()
 
 outputs = map(solution, inputs)
 
-for o in outputs: print(o)
+print("\n".join(outputs))
