@@ -1,7 +1,6 @@
-# standard IPO template
-
 # Input
-def parse:(s: str) -> list[tuple[...]]: 
+def parse(s: str) -> list[tuple[...]]: 
+    # _, *lines = s.strip().splitlines()
     ...
 
 # Process
