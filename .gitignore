@@ -11,3 +11,4 @@ wheels/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+.virtual_documents
