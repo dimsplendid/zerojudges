@@ -1,14 +1,14 @@
 # Input
-def parse(s: str) -> list[tuple[...]]: 
+def parse(s: str) -> list[tuple[... ] ]: 
     # _, *lines = s.strip().splitlines()
     ...
 
 # Process
-def SOLUTION(*args: tuple[...]) -> str: 
+def SOLUTION(*args: tuple[...] ) -> str: 
     ...
 
 # Output
-def main(args): 
+def output(args): 
     result = map(lambda x: SOLUTION(*x), parse(args))
     return "\n".join(result)
 
@@ -16,4 +16,4 @@ def main(args):
 if __name__ == "__main__":
     import sys
     args = sys.stdin.read()
-    print(main(args))
+    print(output(args))
