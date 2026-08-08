@@ -2,8 +2,8 @@
 
 # Input
 def parse(s: str) -> list[list[int]]: 
-    _, *xss = s.splitlines() # skip 0-th line
-    return map(lambda xs: list(map(int, xs.split())), xss)
+    _, *lines= s.splitlines() # skip 0-th line
+    return map(lambda xs: list(map(int, xs.split())), lines)
 
 # Process
 from enum import Enum
